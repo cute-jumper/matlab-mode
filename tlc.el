@@ -298,7 +298,7 @@ foreach\\|while\\|else\\|elseif\\|default\\|function\\)\\>\\)\\|/%\\)"))
 
 ;;; Add to mode list
 ;;;###autoload(add-to-list 'auto-mode-alist '("\\.tlc$" .tlc-mode))
-(add-to-list 'auto-mode-alist '("\\.tlc$" .tlc-mode))
+(add-to-list 'auto-mode-alist '("\\.tlc$" . tlc-mode))
 
 (provide 'tlc)
 
